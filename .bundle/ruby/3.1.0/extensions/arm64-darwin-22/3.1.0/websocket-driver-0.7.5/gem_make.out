@@ -1,0 +1,15 @@
+current directory: /Users/takedaissei/Desktop/workspace/.bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/takedaissei/.rbenv/versions/3.1.4/bin/ruby -I /Users/takedaissei/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/takedaissei/Desktop/workspace/.bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230628-93008-w416ft sitelibdir\=./.gem.20230628-93008-w416ft clean
+
+current directory: /Users/takedaissei/Desktop/workspace/.bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230628-93008-w416ft sitelibdir\=./.gem.20230628-93008-w416ft
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/takedaissei/Desktop/workspace/.bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230628-93008-w416ft sitelibdir\=./.gem.20230628-93008-w416ft install
+/opt/homebrew/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20230628-93008-w416ft
