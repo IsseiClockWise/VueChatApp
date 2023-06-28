@@ -3,7 +3,7 @@
     <h1>VueChat - チャットルーム一覧</h1>
     <ul>
       <li v-for="room in chatRooms" :key="room.id">
-        {{ room.name }}
+        <router-link :to="`/rooms/${room.id}`">{{ room.name }}</router-link>
       </li>
     </ul>
     <h3>チャットルーム作成</h3>
